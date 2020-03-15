@@ -1,0 +1,164 @@
+.study_plan_content {
+    height: auto;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.study_plan_wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.study_plan_item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 30px;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+.study_plan_item_first {
+    background-color: #00237d;
+}
+
+.study_plan_item_IMG img,
+.study_plan_item_IMG_1 img,
+.study_plan_item_IMG_2 img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.study_plan_item_IMG_2 {
+    display: none;
+}
+
+.study_plan_h1_first {
+    max-width: 700px;
+    margin-top: 40px;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.study_plan_h1 {
+    max-width: 700px;
+    margin-top: 40px;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #021546;
+    margin-bottom: 50px;
+}
+
+.study_plan_p_first {
+    max-width: 700px;
+    margin-top: 40px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.study_plan_p {
+    max-width: 700px;
+    margin-top: 40px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #021546;
+    margin-bottom: 50px;
+}
+.study_plan_h1 {
+    height: auto;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #021546;
+}
+
+.study_plan_line {
+    width: 40px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #d0142c;
+}
+
+@media (max-width: 1250px) {
+    .study_plan_item_IMG_2 {
+        display: block;
+    }
+
+    .study_plan_item_IMG_1 {
+        display: none;
+    }
+
+    .study_plan_item {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .study_plan_h1_first,
+    .study_plan_h1,
+    .study_plan_p_first,
+    .study_plan_p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .study_plan_item_IMG img,
+    .study_plan_item_IMG_1 img,
+    .study_plan_item_IMG_2 img {
+        max-width: 280px;
+        height: auto;
+    }
+    .study_plan_wrap{
+        padding: 0 0;
+    }
+    .study_plan_item, {
+        padding: 0 15px;
+    }
+    .study_plan_h1_first,
+    .study_plan_h1,
+    .study_plan_p_first,
+    .study_plan_p {
+        text-align: left;
+    }
+    .study_plan_h1{
+        max-width: 200;
+    }
+    .study_plan_h1, .study_plan_line{
+        margin-left: 15px;
+    }
+}
